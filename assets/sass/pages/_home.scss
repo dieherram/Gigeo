@@ -1,0 +1,95 @@
+// Nav barra de navegación Gigeo
+nav div ul{
+    margin-left: auto;
+}
+
+nav{
+    background-color: $white;
+}
+
+nav{
+    a{
+        font-weight: bold;
+    }
+}
+// Header Gigeo
+.header__background{
+    background-image: url(/assets/images/image-banner.png);
+    width: 100%;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+}
+
+nav a{
+@media (min-width: 576px) {
+    .header__background{
+    height: 8.5rem;
+    }
+}
+}
+
+nav .navbar-toggler-icon{
+    @media (max-width: 576px) {
+    width: 2.3em;
+    height: 2.3em;
+}
+}
+
+// Section perfil de usuario Yuki
+section{ 
+border-bottom: 1px solid $platinum;
+.container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+}
+.section__texto{
+    margin-top: auto;
+}
+
+.section__nombreusuario{
+        font-weight: bold;
+        color:$dark;
+}
+
+.section__foto{
+    width:100px;
+    height:100px;
+    border-radius:150px;
+    display: block;
+}
+
+.section__botones{
+    margin-top: inherit;
+    align-items: center;
+}
+
+    @media (max-width: 576px) {
+        section{
+            .container{
+                justify-content: center;
+            }
+        }
+
+        .section__foto{
+        width:150px;
+        height:150px;
+        }
+        .section__texto{
+        font-size: 30px;
+        }
+
+    }
+
+// Main sección de videos
+main{
+    div{
+        h2{
+    @media (max-width: 576px) {
+    text-align: center;
+    }
+            }
+        }
+    }

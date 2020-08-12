@@ -1,0 +1,39 @@
+// Color para texto de parrafo en body
+body p{
+    color: $old;
+}
+
+// Color de iconos en barra de navegación
+body .fas{
+    color:$dark;
+}
+
+@media (max-width: 768px) {
+    nav .navbar-brand{
+        font-size: 50px;
+    }
+}
+
+nav .navbar-brand{
+    flex-grow: 1;
+}
+
+.robotoregular{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.robotolight{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+@mixin robotoregular{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+@mixin robotolight{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
